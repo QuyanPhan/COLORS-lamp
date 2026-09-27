@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Vim temporary files
+*.swp
+*.swo
+
+# Database credentials
+LAMPAPI/db.php
+
+# Environment files
+.env
+.env.*
