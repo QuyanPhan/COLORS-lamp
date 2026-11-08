@@ -1,0 +1,36 @@
+{
+  "name": "colors-lamp",
+  "version": "1.0.0",
+  "description": "COLORS is a simple web application built with the LAMP stack. The app allows users to log in, add colors, search for saved colors, and log out.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:html": "htmlhint \"frontend/**/*.html\"",
+    "lint:css": "stylelint \"frontend/**/*.css\"",
+    "lint:js": "eslint \"frontend/**/*.js\"",
+    "lint": "npm run lint:html && npm run lint:css && npm run lint:js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuyanPhan/COLORS-lamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/QuyanPhan/COLORS-lamp/issues"
+  },
+  "homepage": "https://github.com/QuyanPhan/COLORS-lamp#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.14.0",
+    "globals": "^17.14.0",
+    "htmlhint": "^1.9.2",
+    "stylelint": "^17.16.0",
+    "stylelint-config-standard": "^40.0.0"
+  }
+}
